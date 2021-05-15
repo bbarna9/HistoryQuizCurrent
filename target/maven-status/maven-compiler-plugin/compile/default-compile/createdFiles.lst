@@ -1,7 +1,8 @@
-models/QuestionModel$Question.class
-models/Quiz.class
+controllers/ResultController.class
 controllers/GameController$1.class
-controllers/LaunchController.class
 models/personalXmlReader.class
 controllers/GameController.class
+models/QuestionModel$Question.class
+models/Quiz.class
+controllers/LaunchController.class
 models/QuestionModel.class

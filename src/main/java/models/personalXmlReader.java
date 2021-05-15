@@ -16,7 +16,7 @@ public class personalXmlReader {
         String tempA = "Error while loading answer";
 
         try {
-            File fXmlFile = new File("/home/barna/Szoftverfejelsztes/HistoryQuiz/questions.xml");
+            File fXmlFile = new File("/home/barna/Szoftverfejelsztes/HistoryQuizCurrent/questions.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(fXmlFile);

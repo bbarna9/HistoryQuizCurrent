@@ -6,9 +6,9 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GameController">
     <children>
-        <Label fx:id="usernameLabel" layoutX="68.0" layoutY="45.0" prefHeight="16.0" prefWidth="565.0" text="Current users: ">
+        <Label fx:id="usernameLabel" layoutX="68.0" layoutY="45.0" prefHeight="16.0" prefWidth="565.0" text="Current users: " textFill="#002366">
             <font>
-                <Font name="FreeSerif Bold" size="22.0" />
+                <Font name="FreeSerif Bold" size="28.0" />
             </font>
         </Label>
         <Label fx:id="questionDisplay" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="100.0" prefHeight="48.0" prefWidth="673.0">
@@ -28,7 +28,7 @@
         </Label>
       <TextField fx:id="useranswer1" editable="false" layoutX="71.0" layoutY="223.0" text="0">
          <font>
-            <Font name="FreeSans" size="18.0" />
+            <Font name="FreeSerif" size="18.0" />
          </font></TextField>
       <TextField fx:id="useranswer2" editable="false" layoutX="396.0" layoutY="223.0" text="0">
          <font>
@@ -69,5 +69,10 @@
             <Font name="FreeSerif" size="18.0" />
          </font>
       </Label>
+      <Button fx:id="getResultsButton" layoutX="525.0" layoutY="335.0" mnemonicParsing="false" onAction="#showResults" prefHeight="40.0" prefWidth="134.0" text="Show Results">
+         <font>
+            <Font name="FreeSerif" size="18.0" />
+         </font>
+      </Button>
     </children>
 </Pane>

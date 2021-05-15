@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ResultController">
+   <children>
+       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="201.0" layoutY="46.0" prefHeight="65.0" prefWidth="298.0" text="Results:" textFill="#002366">
+           <font>
+               <Font name="FreeSerif Bold" size="30.0" />
+           </font>
+       </Label>
+       <Label fx:id="player1NameBox" layoutX="46.0" layoutY="142.0" prefHeight="34.0" prefWidth="171.0" text="name1">
+          <font>
+             <Font name="FreeSerif Bold" size="24.0" />
+          </font>
+       </Label>
+       <Label fx:id="player2NameBox" layoutX="46.0" layoutY="200.0" prefHeight="34.0" prefWidth="171.0" text="name2">
+          <font>
+             <Font name="FreeSerif Bold" size="24.0" />
+          </font>
+       </Label>
+       <Label fx:id="player1ScoreBox" layoutX="222.0" layoutY="142.0" prefHeight="34.0" prefWidth="128.0" text="name1score">
+          <font>
+             <Font name="FreeSerif Bold" size="24.0" />
+          </font>
+       </Label>
+       <Label fx:id="player2ScoreBox" layoutX="222.0" layoutY="200.0" prefHeight="34.0" prefWidth="141.0" text="name2score">
+          <font>
+             <Font name="FreeSerif Bold" size="24.0" />
+          </font>
+       </Label>
+       <Label fx:id="winnerDisplay" alignment="CENTER" contentDisplay="CENTER" layoutX="186.0" layoutY="254.0" prefHeight="50.0" prefWidth="328.0" text="youWonNigga">
+          <font>
+             <Font name="FreeSerif Bold" size="24.0" />
+          </font>
+       </Label>
+       <Button fx:id="dataButton" alignment="CENTER" layoutX="214.0" layoutY="317.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="298.0" text="See previous game result">
+          <font>
+             <Font name="FreeSerif Bold" size="20.0" />
+          </font>
+       </Button>
+   </children>
+</Pane>
